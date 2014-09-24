@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBC4C46C19D32D8000B475DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC4C46B19D32D8000B475DD /* AppDelegate.swift */; };
+		EBC4C46F19D32D8000B475DD /* MN_Newton_Rapson.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EBC4C46D19D32D8000B475DD /* MN_Newton_Rapson.xcdatamodeld */; };
+		EBC4C47119D32D8000B475DD /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC4C47019D32D8000B475DD /* MasterViewController.swift */; };
+		EBC4C47319D32D8000B475DD /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC4C47219D32D8000B475DD /* DetailViewController.swift */; };
+		EBC4C47619D32D8000B475DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBC4C47419D32D8000B475DD /* Main.storyboard */; };
+		EBC4C47819D32D8000B475DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBC4C47719D32D8000B475DD /* Images.xcassets */; };
+		EBC4C47B19D32D8000B475DD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBC4C47919D32D8000B475DD /* LaunchScreen.xib */; };
+		EBC4C48719D32D8000B475DD /* MN_Newton_RapsonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC4C48619D32D8000B475DD /* MN_Newton_RapsonTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBC4C48119D32D8000B475DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBC4C45E19D32D8000B475DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBC4C46519D32D8000B475DD;
+			remoteInfo = "MN Newton Rapson";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EBC4C46619D32D8000B475DD /* MN Newton Rapson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MN Newton Rapson.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBC4C46A19D32D8000B475DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBC4C46B19D32D8000B475DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBC4C46E19D32D8000B475DD /* MN_Newton_Rapson.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MN_Newton_Rapson.xcdatamodel; sourceTree = "<group>"; };
+		EBC4C47019D32D8000B475DD /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		EBC4C47219D32D8000B475DD /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		EBC4C47519D32D8000B475DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBC4C47719D32D8000B475DD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EBC4C47A19D32D8000B475DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EBC4C48019D32D8000B475DD /* MN Newton RapsonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MN Newton RapsonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBC4C48519D32D8000B475DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBC4C48619D32D8000B475DD /* MN_Newton_RapsonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MN_Newton_RapsonTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBC4C46319D32D8000B475DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBC4C47D19D32D8000B475DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBC4C45D19D32D8000B475DD = {
+			isa = PBXGroup;
+			children = (
+				EBC4C46819D32D8000B475DD /* MN Newton Rapson */,
+				EBC4C48319D32D8000B475DD /* MN Newton RapsonTests */,
+				EBC4C46719D32D8000B475DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBC4C46719D32D8000B475DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBC4C46619D32D8000B475DD /* MN Newton Rapson.app */,
+				EBC4C48019D32D8000B475DD /* MN Newton RapsonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBC4C46819D32D8000B475DD /* MN Newton Rapson */ = {
+			isa = PBXGroup;
+			children = (
+				EBC4C46B19D32D8000B475DD /* AppDelegate.swift */,
+				EBC4C47019D32D8000B475DD /* MasterViewController.swift */,
+				EBC4C47219D32D8000B475DD /* DetailViewController.swift */,
+				EBC4C47419D32D8000B475DD /* Main.storyboard */,
+				EBC4C47719D32D8000B475DD /* Images.xcassets */,
+				EBC4C47919D32D8000B475DD /* LaunchScreen.xib */,
+				EBC4C46D19D32D8000B475DD /* MN_Newton_Rapson.xcdatamodeld */,
+				EBC4C46919D32D8000B475DD /* Supporting Files */,
+			);
+			path = "MN Newton Rapson";
+			sourceTree = "<group>";
+		};
+		EBC4C46919D32D8000B475DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBC4C46A19D32D8000B475DD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBC4C48319D32D8000B475DD /* MN Newton RapsonTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBC4C48619D32D8000B475DD /* MN_Newton_RapsonTests.swift */,
+				EBC4C48419D32D8000B475DD /* Supporting Files */,
+			);
+			path = "MN Newton RapsonTests";
+			sourceTree = "<group>";
+		};
+		EBC4C48419D32D8000B475DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBC4C48519D32D8000B475DD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBC4C46519D32D8000B475DD /* MN Newton Rapson */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBC4C48A19D32D8000B475DD /* Build configuration list for PBXNativeTarget "MN Newton Rapson" */;
+			buildPhases = (
+				EBC4C46219D32D8000B475DD /* Sources */,
+				EBC4C46319D32D8000B475DD /* Frameworks */,
+				EBC4C46419D32D8000B475DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MN Newton Rapson";
+			productName = "MN Newton Rapson";
+			productReference = EBC4C46619D32D8000B475DD /* MN Newton Rapson.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBC4C47F19D32D8000B475DD /* MN Newton RapsonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBC4C48D19D32D8000B475DD /* Build configuration list for PBXNativeTarget "MN Newton RapsonTests" */;
+			buildPhases = (
+				EBC4C47C19D32D8000B475DD /* Sources */,
+				EBC4C47D19D32D8000B475DD /* Frameworks */,
+				EBC4C47E19D32D8000B475DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBC4C48219D32D8000B475DD /* PBXTargetDependency */,
+			);
+			name = "MN Newton RapsonTests";
+			productName = "MN Newton RapsonTests";
+			productReference = EBC4C48019D32D8000B475DD /* MN Newton RapsonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBC4C45E19D32D8000B475DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Dani Vega";
+				TargetAttributes = {
+					EBC4C46519D32D8000B475DD = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					EBC4C47F19D32D8000B475DD = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = EBC4C46519D32D8000B475DD;
+					};
+				};
+			};
+			buildConfigurationList = EBC4C46119D32D8000B475DD /* Build configuration list for PBXProject "MN Newton Rapson" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBC4C45D19D32D8000B475DD;
+			productRefGroup = EBC4C46719D32D8000B475DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBC4C46519D32D8000B475DD /* MN Newton Rapson */,
+				EBC4C47F19D32D8000B475DD /* MN Newton RapsonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBC4C46419D32D8000B475DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBC4C47619D32D8000B475DD /* Main.storyboard in Resources */,
+				EBC4C47B19D32D8000B475DD /* LaunchScreen.xib in Resources */,
+				EBC4C47819D32D8000B475DD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBC4C47E19D32D8000B475DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBC4C46219D32D8000B475DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBC4C46F19D32D8000B475DD /* MN_Newton_Rapson.xcdatamodeld in Sources */,
+				EBC4C46C19D32D8000B475DD /* AppDelegate.swift in Sources */,
+				EBC4C47119D32D8000B475DD /* MasterViewController.swift in Sources */,
+				EBC4C47319D32D8000B475DD /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBC4C47C19D32D8000B475DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBC4C48719D32D8000B475DD /* MN_Newton_RapsonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBC4C48219D32D8000B475DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBC4C46519D32D8000B475DD /* MN Newton Rapson */;
+			targetProxy = EBC4C48119D32D8000B475DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBC4C47419D32D8000B475DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBC4C47519D32D8000B475DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBC4C47919D32D8000B475DD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBC4C47A19D32D8000B475DD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBC4C48819D32D8000B475DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBC4C48919D32D8000B475DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBC4C48B19D32D8000B475DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MN Newton Rapson/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EBC4C48C19D32D8000B475DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MN Newton Rapson/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EBC4C48E19D32D8000B475DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MN Newton RapsonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MN Newton Rapson.app/MN Newton Rapson";
+			};
+			name = Debug;
+		};
+		EBC4C48F19D32D8000B475DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MN Newton RapsonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MN Newton Rapson.app/MN Newton Rapson";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBC4C46119D32D8000B475DD /* Build configuration list for PBXProject "MN Newton Rapson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBC4C48819D32D8000B475DD /* Debug */,
+				EBC4C48919D32D8000B475DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBC4C48A19D32D8000B475DD /* Build configuration list for PBXNativeTarget "MN Newton Rapson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBC4C48B19D32D8000B475DD /* Debug */,
+				EBC4C48C19D32D8000B475DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EBC4C48D19D32D8000B475DD /* Build configuration list for PBXNativeTarget "MN Newton RapsonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBC4C48E19D32D8000B475DD /* Debug */,
+				EBC4C48F19D32D8000B475DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EBC4C46D19D32D8000B475DD /* MN_Newton_Rapson.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EBC4C46E19D32D8000B475DD /* MN_Newton_Rapson.xcdatamodel */,
+			);
+			currentVersion = EBC4C46E19D32D8000B475DD /* MN_Newton_Rapson.xcdatamodel */;
+			path = MN_Newton_Rapson.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EBC4C45E19D32D8000B475DD /* Project object */;
+}
